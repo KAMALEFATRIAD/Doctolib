@@ -22,8 +22,7 @@ export default async function getAvailabilities(date,numberOfDays =7) {
   for (const event of events) {
     for (
       let date = moment(event.starts_at);
-      // Check exact time 
-      date.isSameOrBefore(event.ends_at);
+      date.isBefore(event.ends_at);
       date.add(30, "minutes")
     ) {
       const day = availabilities.get(date.format("d"));

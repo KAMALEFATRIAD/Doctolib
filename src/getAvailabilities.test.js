@@ -48,8 +48,8 @@ describe("getAvailabilities", () => {
       expect(availabilities[1].slots).toEqual([
         "9:30",
         "10:00",
-        "12:00",
-        "12:30"
+        "11:30",
+        "12:00"
       ]);
 
       expect(String(availabilities[6].date)).toBe(
@@ -95,8 +95,7 @@ describe("getAvailabilities", () => {
         "10:30",
         "11:00",
         "11:30",
-        "12:00",
-        "12:30"
+        "12:00"
         
       ]);
     });
