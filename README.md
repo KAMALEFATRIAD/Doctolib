@@ -11,8 +11,9 @@ They are two kinds of events:
  
  So I did the following :
  
-  * **Step 1**: I changed the order of events to be applying opening dates before reserving the appointments, to fix the issues for test.
-  * **Step 2**: I assumed that there is no appoitment can be reserved from 12:30 to 13:00 so the result should be 9:30,10:00,11:30,12:00.
+  * **Step 1**: I changed the order of events to be applying opening dates before reserving the appointments, 
+                to fix the issues for test.
+  * **Step 2**: I assumed that there is no appoitment can be reserved from 12:30 to 13:00 as it's end at 12:30 so the result should be                     [9:30,10:00,11:30,12:00] .
   * **Step 3**: Regarding to Test Case no 3 , the opening day was 2018 and recurring week is true , and the checking the availabiity on                   day 2014 that is the same day of the week , so the result showed the all day available and I modified the test case to fit                 with date .
   * **Step 4**: Allow the function to return availabilities on as many days as requested
 
