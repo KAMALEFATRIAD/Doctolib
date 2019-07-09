@@ -1,6 +1,6 @@
 # Doctolib Test
 
-## Instructions A sunderstood from the guidlelines :
+## Instructions as understood from the guidlelines :
 This code provides an algorithm that checks the availabilities of an agenda depending of
 the events attached to it by checking availability on opening dates and if opening days are recurring weekly and exclude reserved times,
 The main method has a start date for input and is looking for the availabilities of the next 7 days.
